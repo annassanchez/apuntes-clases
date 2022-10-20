@@ -7,7 +7,7 @@ El orden que iremos siguiendo será el siguiente (esto podrá estar sujeto a cam
 
 - MÓDULO 1
 
-    - Semana 1
+    - [Semana 1](https://github.com/Ironhack-Data-Madrid-PartTime-Oct22/apuntes-clases/tree/main/semana-1)
 
     | Día  |  Temario |  
     |---|---|
@@ -31,3 +31,11 @@ El orden que iremos siguiendo será el siguiente (esto podrá estar sujeto a cam
     | Miércoles ??  | Clases|   
     | Sábado 12-Nov | Numpy  |  
 
+
+  - Semana 4
+
+    | Día  |  Temario |  
+    |---|---|
+    | Lunes 14-Nov| Pandas |   
+    | Miércoles 16-Nov | Concat, Merge & Join|   
+    | Sábado 19-Nov | Visualización  |  

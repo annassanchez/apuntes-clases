@@ -130,6 +130,10 @@ dmypy.json
 .DS_Store
 
 # contenido
-semana-2
+semana-2/.ipynb_checkpoints
+semana-2/2.2-Control_flow.ipynb
+semana-2/2.2-List_comprehensions.ipynb
+semana-2/2.3-Funciones.ipynb
+
 semana-3
 semana-4

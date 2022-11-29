@@ -1,4 +1,4 @@
-use coches; 
+use mydb; 
 select * from clientes; 
 -- Imaginamos que nos hemos equivocado al poner la provincia y la ciudad de Antonio. 
 

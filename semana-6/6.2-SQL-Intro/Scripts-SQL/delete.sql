@@ -1,5 +1,7 @@
+
+
 -- ⚠️⚠️⚠️ Ojoooo!!!!! Si no ponemos el where borraremos toda la tabla ⚠️⚠️⚠️
-USE coches;
+USE mydb;
 
 select * from clientes;
 
@@ -20,4 +22,4 @@ WHERE nombre = "Daniel";
 
 
 -- chequeemos ahora nuestra tabla
-select * from clientauthorses;
+select * from clientes;

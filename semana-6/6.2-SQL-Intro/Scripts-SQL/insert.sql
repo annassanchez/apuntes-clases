@@ -1,5 +1,5 @@
 -- definimos que queremos usar la BBDD de "coches"
-use mydb;
+use coches;
 
 -- INSERTAMOS DATOS EN LA TABLA CLIENTES
 INSERT INTO clientes (idclientes, nombre, direccion, provincia, telefono)
@@ -17,7 +17,6 @@ VALUES
 -- chequeemos si se han introducido los datos: 
 select * from clientes; -- con el * indicamos que queremos seleccionar todas las columnas. 
 
-select direccion from clientes; -- seleccionamos solo la columna direccion de la tabla clientes
 
 -- INSERTAMOS DATOS EN LA TABLA FECHA-COMPRA. 
 -- ⚠️ Si vamos a introducir todos los datos de las columnas podemos obviar el nombre de las columnas. 
@@ -40,7 +39,7 @@ VALUES
     (2, "Laura", "Madrid-San Sebastian", "2005-9-10");
     
 -- chequeamos si se han metido correctamente    
-select * from facturas;
+select * from vendedor;
 
 -- INSERTAMOS DATOS EN LA TABLA FACTURAS.
 INSERT INTO facturas 
@@ -49,12 +48,11 @@ VALUES
     (2, 34.000, 2, 2, 1 );
     
 -- chequeamos si se han metido correctamente    
-select * from factura;
+select * from facturas;
 
 -- INSERTAMOS DATOS EN LA TABLA PRODUCTO.
 INSERT INTO producto 
 VALUES
-	(10, "Monovolumen", 1, 1 ),
-    (20, "Todoterreno", 2 ,1);
+	(10, 12000.00, "Monovolumen",1, 1,3 ),
+    (20, 17000.99, "Todoterreno",1, 1, 3);
     
-select * from producto;Error Code: 1136. Column count doesn't match value count at row 1

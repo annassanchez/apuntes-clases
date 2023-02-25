@@ -6,7 +6,7 @@ def sacar_populares(df):
     df = df.explode('artists')
 
     populares = df.groupby(['artist'])['popularity'].mean().reset_index().sort_values(by='popularity', ascending=False).head(10)
-    sns.barplot(data = populares, y = 'artist', x = 'popularity', color = '#1DB654')
+    sns.lineplot(data = populares, y = 'artist', x = 'popularity', color = '#1DB654')
 
     plt.xlabel('')
 
